@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function NavBar() {
   return (
     <nav style={{
       position: 'fixed',
@@ -54,4 +54,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;
