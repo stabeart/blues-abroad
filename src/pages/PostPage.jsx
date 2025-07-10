@@ -17,10 +17,11 @@ function PostPage() {
         minHeight: '100vh'
       }}>
         <div style={{
-          background: 'rgba(0,0,0,0.4)',
+          background: 'rgba(255, 255, 255, 0.05)',
+          backdropFilter: 'blur(20px)',
           padding: '2rem',
-          borderRadius: '12px',
-          border: '2px solid #034694'
+          borderRadius: '16px',
+          border: '1px solid rgba(255, 255, 255, 0.1)'
         }}>
           <h1 style={{ color: '#FFD700' }}>Post not found!</h1>
         </div>
@@ -39,77 +40,53 @@ function PostPage() {
     }}>
       <article style={{ 
         width: '800px',
-        background: 'rgba(0,0,0,0.4)',
-        padding: '2rem',
-        borderRadius: '12px',
-        border: '2px solid #034694',
-        boxShadow: '0 8px 16px rgba(0,0,0,0.3)',
+        background: 'rgba(255, 255, 255, 0.05)',
+        backdropFilter: 'blur(20px)',
+        padding: '3rem',
+        borderRadius: '16px',
+        border: '1px solid rgba(255, 255, 255, 0.1)',
+        boxShadow: '0 20px 40px rgba(0, 0, 0, 0.3)',
         position: 'relative'
       }}>
-        {/* Chelsea accent stripe */}
-        <div style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          right: 0,
-          height: '4px',
-          background: 'linear-gradient(90deg, #FFD700 0%, #034694 50%, #FFD700 100%)',
-          borderRadius: '12px 12px 0 0'
-        }}></div>
-        
-        <Link 
-          to="/" 
-          style={{ 
-            marginBottom: '2rem', 
-            display: 'inline-block',
-            color: '#FFD700',
-            textDecoration: 'none',
-            fontWeight: 'bold',
-            padding: '0.5rem 1rem',
-            border: '2px solid #FFD700',
-            borderRadius: '25px',
-            background: 'rgba(255,215,0,0.1)',
-            transition: 'all 0.3s ease',
-            marginTop: '1rem'
-          }}
-        >
-          Home
-        </Link>
         
         <h1 style={{ 
           color: '#FFD700',
           fontSize: '2.5rem',
+          fontWeight: '700',
           marginBottom: '1rem',
-          textShadow: '2px 2px 4px rgba(0,0,0,0.5)'
+          letterSpacing: '-0.02em',
+          lineHeight: '1.2'
         }}>
           {post.title}
         </h1>
         
         <p style={{ 
-          color: '#b0b0b0', 
+          color: 'rgba(255, 255, 255, 0.7)', 
           fontSize: '1rem', 
+          fontWeight: '400',
           marginBottom: '2rem',
-          borderBottom: '1px solid #034694',
+          borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
           paddingBottom: '1rem'
         }}>
-          📅 {post.date}
+          {post.date}
         </p>
         
-        <div style={{ 
-          lineHeight: '1.8',
-          fontSize: '1.1rem',
-          color: '#e0e0e0'
-        }}>
+        <div 
+          className="post-content"
+          style={{ 
+            color: 'rgba(255, 255, 255, 0.9)'
+          }}
+        >
           <ReactMarkdown 
             components={{
-              h1: (props) => <h1 style={{color: '#FFD700', marginBottom: '1rem', marginTop: '2rem'}} {...props} />,
-              h2: (props) => <h2 style={{color: '#FFD700', marginBottom: '0.8rem', marginTop: '1.5rem'}} {...props} />,
-              h3: (props) => <h3 style={{color: '#FFD700', marginBottom: '0.6rem', marginTop: '1rem'}} {...props} />,
-              img: (props) => <img style={{width: '100%', borderRadius: '8px', margin: '1rem 0'}} {...props} />,
-              blockquote: (props) => <blockquote style={{borderLeft: '4px solid #FFD700', paddingLeft: '1rem', margin: '1rem 0', fontStyle: 'italic', color: '#b0b0b0'}} {...props} />,
+              h1: (props) => <h1 style={{color: '#FFD700', marginBottom: '1rem', marginTop: '2rem', fontWeight: '600'}} {...props} />,
+              h2: (props) => <h2 style={{color: '#FFD700', marginBottom: '0.8rem', marginTop: '1.5rem', fontWeight: '600'}} {...props} />,
+              h3: (props) => <h3 style={{color: '#FFD700', marginBottom: '0.6rem', marginTop: '1rem', fontWeight: '600'}} {...props} />,
+              img: (props) => <img style={{width: '100%', borderRadius: '12px', margin: '1.5rem 0'}} {...props} />,
+              blockquote: (props) => <blockquote style={{borderLeft: '4px solid #FFD700', paddingLeft: '1.5rem', margin: '1.5rem 0', fontStyle: 'italic', color: 'rgba(255, 255, 255, 0.8)'}} {...props} />,
               ul: (props) => <ul style={{marginLeft: '1.5rem', marginBottom: '1rem'}} {...props} />,
               ol: (props) => <ol style={{marginLeft: '1.5rem', marginBottom: '1rem'}} {...props} />,
-              p: (props) => <p style={{marginBottom: '1rem'}} {...props} />
+              p: (props) => <p style={{marginBottom: '1.2rem'}} {...props} />
             }}
           >
             {post.content}

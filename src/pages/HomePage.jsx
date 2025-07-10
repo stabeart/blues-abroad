@@ -9,6 +9,7 @@ function HomePage() {
       flexDirection: 'column !important',
       alignItems: 'center !important',
       padding: '2rem !important',
+      paddingTop: '6rem !important', // Add this line to fix navbar overlap
       minHeight: '100vh'
     }}>
 

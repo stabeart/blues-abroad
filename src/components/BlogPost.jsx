@@ -5,36 +5,32 @@ function BlogPost({ post }) {
   return (
     <article style={{ 
       marginBottom: '2rem', 
-      padding: '1.5rem', 
-      background: 'rgba(0,0,0,0.4)',
-      border: '2px solid #034694',
-      borderRadius: '12px',
+      padding: '2rem', 
+      background: 'rgba(255, 255, 255, 0.05)',
+      backdropFilter: 'blur(20px)',
+      border: '1px solid rgba(255, 255, 255, 0.1)',
+      borderRadius: '16px',
       width: '700px',
       margin: '0 auto 2rem auto',
-      boxShadow: '0 8px 16px rgba(0,0,0,0.3)',
+      boxShadow: '0 20px 40px rgba(0, 0, 0, 0.3)',
       transition: 'all 0.3s ease',
       position: 'relative'
     }}>
-      {/* Chelsea accent stripe */}
-      <div style={{
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        right: 0,
-        height: '4px',
-        background: 'linear-gradient(90deg, #FFD700 0%, #034694 50%, #FFD700 100%)',
-        borderRadius: '12px 12px 0 0'
-      }}></div>
+
       
-      <h2 style={{ marginTop: '0.5rem' }}>
+      <h2 style={{ 
+        marginTop: '0.5rem',
+        marginBottom: '1rem'
+      }}>
         <Link 
           to={`/post/${post.id}`} 
           style={{ 
             textDecoration: 'none', 
-            color: '#FFFFFF',
-            fontSize: '1.5rem',
-            fontWeight: 'bold',
-            textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
+            color: '#FFD700',
+            fontSize: '1.75rem',
+            fontWeight: '600',
+            letterSpacing: '-0.01em',
+            lineHeight: '1.3'
           }}
         >
           {post.title}
@@ -42,38 +38,32 @@ function BlogPost({ post }) {
       </h2>
       
       <p style={{ 
-        color: '#b0b0b0', 
+        color: 'rgba(255, 255, 255, 0.7)', 
         fontSize: '0.9rem',
-        marginBottom: '1rem',
-        borderBottom: '1px solid #034694',
-        paddingBottom: '0.5rem'
+        fontWeight: '400',
+        marginBottom: '1.5rem',
+        paddingBottom: '1rem',
+        borderBottom: '1px solid rgba(255, 255, 255, 0.1)'
       }}>
-        📅 {post.date}
+        {post.date}
       </p>
       
-      <div style={{ 
-        lineHeight: '1.6',
-        marginBottom: '1.5rem',
-        color: '#e0e0e0'
-      }}>
+      <div 
+        className="post-excerpt"
+        style={{ 
+          lineHeight: '1.7',
+          marginBottom: '2rem',
+          color: 'rgba(255, 255, 255, 0.9)'
+        }}
+      >
         <ReactMarkdown>{post.excerpt}</ReactMarkdown>
       </div>
       
       <Link 
         to={`/post/${post.id}`} 
-        style={{ 
-          color: '#FFD700',
-          textDecoration: 'none',
-          fontWeight: 'bold',
-          padding: '0.5rem 1rem',
-          border: '2px solid #FFD700',
-          borderRadius: '25px',
-          background: 'rgba(255,215,0,0.1)',
-          transition: 'all 0.3s ease',
-          display: 'inline-block'
-        }}
+        className="btn-primary"
       >
-        Read More ⚽
+        Read More
       </Link>
     </article>
   );
