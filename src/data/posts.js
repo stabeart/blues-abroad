@@ -1,6 +1,6 @@
 export const posts = [
   {
-    id:3,
+    id:2,
     title: "Thoughts on the Final",
     date: "2025-07-11",
     content: `
@@ -18,6 +18,17 @@ Our biggest weakness, and the man most likely to lose us this final, is Robert S
 
 For his part, Enzo Maresca has also shown a degree of flexibility throughout this competition, rotating positions and adapting his system for who he has available. Above all, Maresca has to be credited for getting us to this final. It might be the optimist in me choosing to believe Maresca threw the match against Flamengo, but whether that’s true or not, he’s steered us through the knock-outs comfortably. And now, his team has reached its biggest test thus far. Financially, the $40 million difference between winning and losing is notable, but shouldn’t change anything major for Chelsea’s summer strategy and future planning. This final means far more for the players, who kicked on this season and, in the past few months, began to look like a well-tuned, cohesive unit. Win or lose—and I hope its win—this infamously young team has gained a lot from this tournament, and a good showing in this final will undoubtedly boost our confidence going into next season. The first big final is a milestone for every great Chelsea team (just as the Conference League final was a milestone for our B-team). These are the games we’re meant to play in, and there’s no doubt in my mind this is the first of many for this new Chelsea side. PSG are due a shitter. Come on Chels.
 
-    `
+    `,
+    excerpt: "We couldn't, could we?"
+  },
+  {
+    id: 1,
+    title: "What the hell is this, and why should I care?",
+    date: "2025-07-10",
+    content: `Okay, okay, I get it, believe me: there are too many idiots sharing opinions about football. The internet was a beautiful concept. Sadly, for all the good it’s done, the World Wide Web has also enabled every dickhead who did five keepy-uppies in year nine to spew sacreligious bile from the atomized comfort of their two bedroom flat. Enter your dear author, born and raised in the dark isolation of YouTube videos and social media. A sort of Bane figure, if you will. I digress. There are too many idiots sharing opinions about football. Each day, I come to this conclusion in some way or another: as I scroll minute-long clips of professional actors hocking milktoast opinions on players they never watched, or when I see said former players grifting for Keir Starmer’s austere Labor or the World Economic Forum. In fairness, I don’t expect much from mainstream media, and less so when it comes to football. The press is always bought, especially in Europe; you need only have observed the generational media support for Gareth Southgate’s knighthood bid to realize this. The worst offenders in the football media shitscape are the once-journos-turned-PR-machines, fastidiously reporting on Lamine Yamal’s wet dreams while private consortiums buy up every mid-level team in Europe. The outlook for regular fans like me is bleak, and each day I find myself seeking a place to gather my thoughts and put them out into the world, however insignificant they might be. I love this sport, and I love talking about it, so I’ve created this site/blog/fan forum as a place for me to talk about football. You might hate what I have to say. You might not. In all likelihood, you probably won’t even read it. I don’t really care. If you’re interested, stick around.
+
+While I won’t be focusing solely on Chelsea, I’ve themed this site around them because, well, they are my club, and for whatever reason I enjoy discussing them. Most of the things I post here will have to do with Chelsea, although I’ll throw in some general observations and think (stink) pieces. I’ll be updating and restructuring this website as I see fit; it’s a living passion project. 
+`,
+    excerpt: "Surely not another tosser with an opinion..."
   },
 ];
