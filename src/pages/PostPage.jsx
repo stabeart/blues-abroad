@@ -9,11 +9,12 @@ function PostPage() {
   if (!post) {
     return (
       <div style={{ 
-        width: '100%',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        padding: '2rem',
+        width: '100% !important',
+        display: 'flex !important',
+        flexDirection: 'column !important',
+        alignItems: 'center !important',
+        padding: '2rem !important',
+        paddingTop: '6rem !important', // Match HomePage spacing
         minHeight: '100vh'
       }}>
         <div style={{
@@ -31,22 +32,26 @@ function PostPage() {
 
   return (
     <div style={{ 
-      width: '100%',
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      padding: '2rem',
+      width: '100% !important',
+      display: 'flex !important',
+      flexDirection: 'column !important',
+      alignItems: 'center !important',
+      justifyContent: 'flex-start !important',
+      padding: '2rem !important',
+      paddingTop: '6rem !important', // Match HomePage spacing
       minHeight: '100vh'
     }}>
       <article style={{ 
         width: '800px',
+        maxWidth: '100%',
         background: 'rgba(255, 255, 255, 0.05)',
         backdropFilter: 'blur(20px)',
         padding: '3rem',
         borderRadius: '16px',
         border: '1px solid rgba(255, 255, 255, 0.1)',
         boxShadow: '0 20px 40px rgba(0, 0, 0, 0.3)',
-        position: 'relative'
+        position: 'relative',
+        margin: '0 auto'
       }}>
         
         <div style={{
