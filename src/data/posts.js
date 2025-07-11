@@ -1,5 +1,21 @@
 export const posts = [
-  {
+    {
+    id: 3,
+    title: "SAD DAY FOR THE MANDEM",
+    date: "July 11, 2025",
+    content:`
+    They’ve done it again, those tricky reds. Another bright young Chelsea future snuffed out at Arsenal. First Kai Havertz—the most clinical striker in the world*—then Kepa Arrizabalaga—the most expensive keeper of all time (for good reason)—and now Tottenham legend Nonzino Man-dueke. What can I say about Noni that hasn’t been said in the past few days, other than this: you’ve got a world beater, Arsenal. Treat him well—we all know you will.
+
+In all seriousness, Arsenal’s £52 million purchase of Noni Madueke confounds me just as much as everyone else. It’s one of those rare signings where seemingly every fan, neutral or not, has reacted the same way. On the Chelsea side, fans aren’t particularly lamenting the loss of Madueke; by that same token, Arsenal fans don’t appear all that excited by his arrival. Everyone—myself included—seems to agree that it’s not the signing Arsenal needs. Of course, they can’t be faulted for looking to strengthen their squad, and historically they seem reliant on Chelsea to do so. If this were a title-winning side adding to the ranks, I could better understand the signing. Madueke is a decent, promising young player, capable of changing games by cutting inside and planting one in the back corner of the net. But this isn’t a City or Liverpool deepening their bench; it’s an aspirational Arsenal splashing significant cash on an understudy. I imagine the most infuriating aspect from a Gooner perspective is that Arsenal are still reluctant to spend a comparable amount of money on a striker. While stalling the Gyokeres deal over a few million quid which the club insist they don’t have, they lock down Chelsea’s second/third-choice right winger. 
+
+None of this is to say it can’t turn out to be a good signing. As I’ve said, Madueke is a good player. But as plenty have already pointed out, he’s not the game changer Arsenal need to close the gap on first. He’s nowhere near Bukayo Saka in consistency, and he’d be competing with Nwaneri for minutes off the bench. His most obvious route to a starting role is if Saka goes out with another months-long injury. This isn’t a bad opportunity for Madueke, and I have no doubt he’d rise to the occasion, but he’d have the same opportunity at Chelsea were Neto or Palmer out injured—alongside the minutes he was already getting. Maybe, though, Mikel Arteta sees Madueke as a left-footed left winger, banging in crosses and weak-foot passes to the edge of the box. You’d find this even less plausible if you watched the latter half of last season, where Madueke made several underwhelming appearances on the left. He’s never been the most involved player, hesitant to track back and frequently taking on the hardest, most selfish shot possible. Playing on the left for Chelsea, Madueke became practically invisible, leaving little to no visual impact and accruing no goal contributions in his seven starts there last season. Arsenal have spent first-team money on a player who, simply put, would struggle to start over Leandro Trossard or a fit Gabriel Martinelli. Maybe this is one for the future, and maybe Madueke will cultivate genuine consistency over his first season at Arsenal. With an obscure path to consistent starting minutes, though, I worry Madueke will find himself in the same liminal predicament he was in at Chelsea.
+
+
+*For a brief period in May of 2021.
+    `,
+    excerpt: "Big day for Declan Rice's street cred.",
+    },
+    {
     id:2,
     title: "THOUGHTS ON THE FINAL",
     date: "July 11, 2025",
