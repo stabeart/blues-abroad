@@ -14,7 +14,8 @@ function BlogPost({ post }) {
       margin: '0 auto 2rem auto',
       boxShadow: '0 20px 40px rgba(0, 0, 0, 0.3)',
       transition: 'all 0.3s ease',
-      position: 'relative'
+      position: 'relative',
+      contain: 'layout style', // Add this line
     }}>
 
       
@@ -29,6 +30,7 @@ function BlogPost({ post }) {
             color: '#FFD700',
             fontSize: '1.75rem',
             fontWeight: '600',
+            fontFamily: 'Peignoir Lite, serif',
             letterSpacing: '-0.01em',
             lineHeight: '1.3'
           }}

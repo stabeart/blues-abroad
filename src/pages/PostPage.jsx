@@ -49,16 +49,44 @@ function PostPage() {
         position: 'relative'
       }}>
         
-        <h1 style={{ 
-          color: '#FFD700',
-          fontSize: '2.5rem',
-          fontWeight: '700',
+        <div style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'flex-start',
           marginBottom: '1rem',
-          letterSpacing: '-0.02em',
-          lineHeight: '1.2'
+          marginTop: '1rem'
         }}>
-          {post.title}
-        </h1>
+          <Link 
+            to="/" 
+            style={{ 
+              color: 'rgba(255, 255, 255, 0.7)',
+              textDecoration: 'none',
+              fontSize: '1.5rem',
+              display: 'inline-block',
+              flexShrink: 0,
+              transition: 'color 0.3s ease'
+            }}
+            onMouseEnter={(e) => e.target.style.color = '#FFD700'}
+            onMouseLeave={(e) => e.target.style.color = 'rgba(255, 255, 255, 0.7)'}
+          >
+            ←
+          </Link>
+          
+          <h1 style={{ 
+            color: '#FFD700',
+            fontSize: '2.5rem',
+            fontWeight: '700',
+            fontFamily: 'Peignoir Lite, serif',
+            marginBottom: '0',
+            letterSpacing: '-0.02em',
+            lineHeight: '1.2',
+            textAlign: 'right',
+            flex: 1,
+            marginLeft: '2rem'
+          }}>
+            {post.title}
+          </h1>
+        </div>
         
         <p style={{ 
           color: 'rgba(255, 255, 255, 0.7)', 
@@ -66,7 +94,8 @@ function PostPage() {
           fontWeight: '400',
           marginBottom: '2rem',
           borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
-          paddingBottom: '1rem'
+          paddingBottom: '1rem',
+          textAlign: 'right'
         }}>
           {post.date}
         </p>

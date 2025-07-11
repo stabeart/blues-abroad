@@ -1,7 +1,7 @@
 export const posts = [
   {
     id:2,
-    title: "Thoughts on the Final",
+    title: "THOUGHTS ON THE FINAL",
     date: "July 11, 2025",
     content: `
 PSG are due a shitter. 
@@ -23,7 +23,7 @@ For his part, Enzo Maresca has also shown a degree of flexibility throughout thi
   },
   {
     id: 1,
-    title: "What the hell is this, and why should I care?",
+    title: "WHAT THE HELL IS THIS, AND WHY SHOULD I CARE?",
     date: "July 10, 2025",
     content: `Okay, okay, I get it, believe me: there are too many idiots sharing opinions about football. The internet was a beautiful concept. Sadly, for all the good it’s done, the World Wide Web has also enabled every dickhead who did five keepy-uppies in year nine to spew sacreligious bile from the atomized comfort of their two bedroom flat. Enter your dear author, born and raised in the dark isolation of YouTube videos and social media. A sort of Bane figure, if you will. I digress. 
     

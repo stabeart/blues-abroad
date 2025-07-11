@@ -21,15 +21,12 @@ function NavBar() {
         to="/" 
         style={{ 
           textDecoration: 'none',
-          color: '#FFFFFF',
           fontSize: '2.5rem',
           fontWeight: '700',
           fontFamily: 'Peignoir, serif',
           letterSpacing: '0.02em',
-          transition: 'color 0.3s ease'
         }}
-        onMouseEnter={(e) => e.target.style.color = '#FFD700'}
-        onMouseLeave={(e) => e.target.style.color = '#FFFFFF'}
+       className="logo-link"
       >
         BLUES ABROAD
       </Link>

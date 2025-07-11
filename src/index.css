@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
 
 @font-face {
   font-family: 'Peignoir';
   src: url('/fonts/peignoir.woff2') format('woff2'),
        url('/fonts/peignoir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Peignoir Lite';
+  src: url('/fonts/peignoir-lite.woff2') format('woff2'),
+       url('/fonts/peignoir-lite.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -76,15 +85,24 @@ body {
   transform: translateY(-1px);
 }
 
+.logo-link {
+  color: #FFFFFF;
+  transition: color 0.3s ease;
+}
+
+.logo-link:hover {
+  color: #FFD700;
+}
+
 /* Body text styles for posts and excerpts */
 .post-content {
-  font-family: 'Crimson Text', Georgia, serif;
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 1.1rem;
   line-height: 1.8;
 }
 
 .post-excerpt {
-  font-family: 'Crimson Text', Georgia, serif;
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 1rem;
   line-height: 1.7;
 }
