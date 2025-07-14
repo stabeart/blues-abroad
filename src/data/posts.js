@@ -15,6 +15,14 @@ Malo Gusto kinda deserves to stay now. I said it. He’s performed fairly well i
 Cole Palmer is world class. That can’t be doubted. He can do it at every level, AND he shows up in every final, which is more than can be said for most players. What a player man.
 
 Reece James' side eye to Donald Trump might be the highlight of the tournament. I'm surprised they didn't let him lift the trophy. Also Gianni Infantino was allegedly in those Epstein papers.
+
+Chelsea outplayed PSG in a manner no one else has this season. By the 70th minute, the Parisians looked tired and frustrated, exemplified in Joao Neves’s dirty hair pull on Cucurella. We’ve seen Cucu’s luscious locks result in a red card earlier in the season. I seem to remember it happening during the Euros too, though I can’t be bothered to look that up. By full-time, PSG were rattled the likes of which we haven’t seen this season. The normally cordial and beloved Luis Enrique was reduced to grabbing 23-year old Joao Pedro’s throat. PSG seemed to come into the match with this mentality, though, kicking off after the first goal (the reason for which wasn’t broadcast). I’m sure Chelsea players were taunting them, and I’m sure Joao Pedro said something foul to Luis Enrique, but the lack of decorum from a team that’s been so well-loved this season was frankly shocking. I guess until now we haven’t seen how they take losing. Clearly, they take it very poorly. 
+
+Joao Pedro might be the difference-maker. Within the span of 12 days he’s been signed for £55 million, yanked from his summer holiday, thrown into the knockout round of a major competition, and boosted us to victory over the European champions while securing his name on the team sheet. Of course, we have very little to go off, but if this isn’t a new-club bounce and Pedro continues this form for us, we might have the next elite Chelsea striker on our hands.
+
+This season will be remembered as the season where Chelsea stopped PSG. This treble-winning side can never be mentioned without also mentioning the team that finally beat them. 
+
+I’ll say it again. Enzo Maresca is a tactical mastermind.
 `,
     excerpt: "Champions of East Rutherford, you’ll never sing that."
     },
