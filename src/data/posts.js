@@ -1,5 +1,24 @@
 export const posts = [
     {
+    id: 5,
+    title: "SOME MORE THOUGHTS ON THE FINAL",
+    date: "July 13, 2025",
+    content: `
+Enzo Maresca has had a brilliant first season. He was rightfully questioned on appointment, looking like another BlueCo managerial gamble. In fairness, he kind of was. His appointment reflected the new ownership’s departure from the era of high-pedigree managers at Chelsea. Like Potter or Lampard before him, Maresca came in as a relative unknown at the highest level of management, facing questions about his leadership or tactical adaptability. After his first six months, some Chelsea fans were right to question his mentality, his shifting-of-the-goalposts when asked about the club’s immediate expectations, his insistence in December that we had no chance of winning the title from second place. But Maresca has risen to the challenge of Chelsea manager, sticking by his players, his tactics, his decisions, and to his credit, he’s made some bold decisions which have paid off; decisions like starting Reece James in midfield in a final, playing new arrival Joao Pedro over starter Nicholas Jackson in a semifinal, and pushing Cole Palmer to the left-wing to link Pedro Neto and Reece James on the right. His decision to stick by Robert Sanchez seems to be paying off, but starting Philip Jorgensen also won us the Conference League final. Maresca has shown, in this first season, that he’s capable of managing, coaching, and winning at the highest level. Today, he showed he’s able to beat the fiercest opposition with basically their own tactics. For the first time under this ownership, I see a proper Chelsea coach on the sidelines. 
+
+Nicholas Jackson isn’t long for this world. Thank god we signed Pedro and Delap. If Nicholas Jackson had even touched the pitch today, we’d end up losing 4-3 with Caicedo out for ten months. However you slice it—by value, transfer fee, raw skill, or pedigree—Nicholas Jackson is rightfully our third choice striker. I actually think he’ll thrive in that squad role, with less pressure to lead the line or decide our season (which thankfully he didn’t). This could be a very successful season for Jackson off the bench, but I certainly don’t want to see him starting most league games. 
+
+Does Madueke get a medal? I’m pretty sure he’s eligible for one, but it would be so funny if they don’t register him. I actually hope he gets one, just so he can have something to show off in the dressing room. If anything, he’s the most successful attacking player at his new club—surely that should help bump him in the starting order.
+
+Malo Gusto kinda deserves to stay now. I said it. He’s performed fairly well in a Chelsea shirt and still has a decently high ceiling. He’s also 22 so I don’t see us selling him for a while. That being said, we’ll probably sell him tomorrow. 
+
+Cole Palmer is world class. That can’t be doubted. He can do it at every level, AND he shows up in every final, which is more than can be said for most players. What a player man.
+
+Reece James' side eye to Donald Trump might be the highlight of the tournament. I'm surprised they didn't let him lift the trophy. Also Gianni Infantino was allegedly in those Epstein papers.
+`,
+    excerpt: "Champions of East Rutherford, you’ll never sing that."
+    },
+    {
     id: 4,
     title: "CHELSEA WORLD CHAMPIONS",
     date: "July 13, 2025",
@@ -17,7 +36,7 @@ This win is massive for this Chelsea team and ownership. While I’ve been less 
 Chelsea are back where we belong, among the world’s best. Give us London, give us England, give us Europe, give us the world. 
 
     `,
-    excerpt: "Champions of East Rutherford, you’ll never sing that.",
+    excerpt: "Donald Trump declares 'London is Blue!'",
     },
     {
     id: 3,
