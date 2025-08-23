@@ -1,5 +1,22 @@
 export const posts = [
     {
+    id: 6,
+    title: "POTTER'S LAST STAND",
+    date: "Agust 22, 2025",
+    content: `
+There are many places you could begin after a game like that. I’ll start with one of my favorite moments: amidst the frenzy of goals, in the 73rd minute, Reece James knocked the ball past Potts and slotted an inch-perfect pass through West Ham’s defence to find Estêvão, leaving Malick Diouf face-down on the eighteen yard box. Estêvão, admittedly, overworked the chance in a similar fashion to his decisive miss at home against Palace. The incision, though, with which James picked up the ball in the defensive third and carved Palace open to find our bright-eyed young Brazilian winger brought a tear to my eye upon rewatch. It’s the sort of pass we’ve come to expect from Cole Palmer, reminiscent of that exquisite through-ball for Pedro Neto against Newcastle last season. I love this moment simply for what it foreshadows this season. Those few remaining Reece James doubters are due a rude awakening.
+
+As always, some fans seem to be running wild with this result. Don’t get me wrong: it was a brilliant game, and Chelsea dominated every meaningful statistic; it was also, for my money, one of the easiest away fixtures we’ll have this season. Graham Potter has consistently proven he’s not equipped to manage at this level, and very little can be said of an unimproved West Ham squad which finished 14th last season. When Lucas Paquetá scored in the 6th minute, I felt the frustration of the players on the pitch, but I also knew they’d channel that frustration into a vicious response against which West Ham would inevitably capitulate. By the time Füllkrug’s 16th minute strike had been disallowed, it was clear Chelsea had shown up to fight for their first win of the season.
+
+It ended up being a pretty standard affair. I don’t mean to understate it; I genuinely think West Ham are that shit. The team that Potter, or whoever hired him, has put together would do well to finish above Burnley this season. Between now and October 25th, I see them picking up four points at best. This is a classic case: Potter will be gone by November (if not much, much sooner), and the return fixture in January—under some interim manager, most likely Frank Lampard—will be a much tighter affair. To be perfectly honest, Graham Potter is one more bad loss away from the sort of résumé which even the English FA would scoff at. Potter’s future might rest in the hands of Wolverhampton, as God knows it’s not in his own.
+
+As I’ve said, Chelsea did dominate in every meaningful dimension; yet this was the increasingly rare sort of match where the scoreline most accurately portrays both teams’ performances. After the 16th minute, even with the interruption of Niclas Füllkrug’s disallowed goal, Chelsea settled into a mean flow. Our newest corner routine, combined with some existential stinkers from Mads Hermansen, saw Chelsea lay siege to West Ham’s net, scoring three from only five corners. This is the same routine we deployed against Palace, as well as during parts of the Club Word Cup and preseason. Today, though, Chelsea bullied West Ham’s fledgling defense on every attacking set piece. Again, this is to be expected, especially after West Ham’s recent defensive reconstruction. While both the scoreline and our performance impressed, the true test of Chelsea’s edge won’t come until later in the season. We certainly needed to bounce back after our underwhelming start against Palace, but being early to the great West Ham flogging of 2026 is no cause for celebration. 
+
+In a romantic way, though, I’ve chosen to see this as Potter’s grand farewell to life in London. He gave us all he could, and after a day like today, what else can you really ask for?
+    `,
+    excerpt: "Or, Enzo Maresca’s counter-terrorist masterclass (Chelsea 5-1 West Ham)"
+    },
+    {
     id: 5,
     title: "SOME MORE THOUGHTS ON THE FINAL",
     date: "July 13, 2025",
