@@ -1,5 +1,19 @@
 export const posts = [
     {
+    id: 10,
+    title: "MARESCA SACKED",
+    date: "January 1, 2026",
+    content: `The most painful aspect of this sacking is the knowledge that the peak of this club's success has already passed. Until this ownership leaves---which, barring a US invasion of Israel, won't be happening anytime soon---Chelsea will continue on a path of never-ending regression towards mediocrity. 
+
+Maresca had many flaws as a manager, chief among them his inability to actually manage a match as it was happening. The first nineteen games of this season have been some of the worst since this ownership took over. But he was not sacked because of the results---at least, not for his part in the results. He was sacked because he wanted to amend these bad results by improving the squad. Maresca has left for the same reasons every other half-decent manager has left in the past few years, in that it seems impossible for anyone to operate at a high level under this ownership. Between the cynical transfer policy and the board's despotic oversight, any worthwhile manager  would do well to stay far away from this club. 
+
+Let's not also pretend that Maresca didn't see this coming, and that he hasn't been angling for a departure should things not go his way. I think we all saw something like this coming after his post-Everton press conference in December; the more scrupulous of us understood his signing with agent Jorge Mendes as the salvo of his departure. When Maresca was announced as manager at the start of last season most fans decried him as a yes-man brought in to do the board's bidding, to steady the team on the pitch while they did their dirty financial work in the background. If he turned out to be too opinionated and ambitious, coming from a Championship Leicester City side, then who else could possibly make this job work? 
+
+It should be clear to everyone by now that this ownership, and the charlatans they've brought in run the club, have an at best incidental interest in succeeding on the pitch. And yet what they purport to be good at---the flipping of players, the financial trickery, the incessant branding---doesn't seem to work very well either. None of the players at the club now will be here in two seasons, regardless of how well they play, and the meager profit we make will only fund the next cycle of mediocre youngsters. We still don't have a front-of-shirt sponsor, despite the endless stream of clothing collaborations and social media campaigns. Simply put, this is not a football club in anything other than name and image. Until these owners leave, we could have as many promising young managers as we'd like; the best has already come and gone, and, at that, in the form of a Conference League and a Club World Cup. It's unfortunate that these trophies will mark Maresca's legacy at Chelsea. He did a good job with what he was given, and all signs pointed upwards, at least on his end. Given the time and the resources, he would have undoubtedly gone on to achieve bigger things at the club. I'm sure he will wherever he lands next.
+`,
+    excerpt: "Farewell, sweet prince."
+    },
+    {
     id: 9,
     title: "MANCHESTER UNITED PREVIEW",
     date: "September 19, 2025",
