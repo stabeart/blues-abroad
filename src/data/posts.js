@@ -3,7 +3,7 @@ export const posts = [
     id: 10,
     title: "MARESCA SACKED",
     date: "January 1, 2026",
-    content: `The most painful aspect of this sacking is the knowledge that the peak of this club's success has already passed. Until this ownership leaves---which, barring a US invasion of Israel, won't be happening anytime soon---Chelsea will continue on a path of never-ending regression towards mediocrity. 
+    content: `The most painful aspect of this sacking is the knowledge that the peak of this club's success has already passed. Until this ownership leaves---which, barring a US invasion of Greenland, won't be happening anytime soon---Chelsea will continue on a path of never-ending regression towards mediocrity. 
 
 Maresca had many flaws as a manager, chief among them his inability to actually manage a match as it was happening. The first nineteen games of this season have been some of the worst since this ownership took over. But he was not sacked because of the results---at least, not for his part in the results. He was sacked because he wanted to amend these bad results by improving the squad. Maresca has left for the same reasons every other half-decent manager has left in the past few years, in that it seems impossible for anyone to operate at a high level under this ownership. Between the cynical transfer policy and the board's despotic oversight, any worthwhile manager  would do well to stay far away from this club. 
 
