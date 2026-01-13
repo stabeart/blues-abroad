@@ -13,7 +13,7 @@ Jamie Gittens in particular, despite his lack of goal contributions, was the dri
 
 Overall, it was a great start for the new boss. As I’ve said, it will take many more games to understand his mark on this team. But as far as first matches go, I doubt he could have asked for anything more. While some fans still lament the immediate future of this club under this head coach and ownership structure, I look forward to seeing what Liam Rosenior will do. The board have manufactured a situation where the expectations are once again reset for the rest of the season. If the rumors that they have demanded top four are to be believed, then I do think Rosenior is in for a rougher few months. Don’t get me wrong; I detest the people running this football club, from the owners to the sporting directors. They clearly care more for financial success than sporting success, and clearly know very little about how to succeed as a football club. That being said, Rosenior deserves the full support of every Chelsea fan. Between the spirit that this team of players have shown and the new manager’s apparent hunger for success, we’re in for an entertaining season. These words may come back to bite me in a few months, but, as a fan of this club, I can put up with a high degree of disappointment and humiliation.     
     `,
-    excerpt: "A rose by any other senior would smell as sweet"
+    excerpt: "A rose by any other name would smell as senior"
     },
     {
     id: 10,
